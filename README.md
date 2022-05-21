@@ -5,4 +5,5 @@
 2️⃣ Add the product listing.
 3️⃣ Create a Cart.
 4️⃣ Add a login Page.
+5️⃣ Create a Payment form [❕Partially Done]
 
