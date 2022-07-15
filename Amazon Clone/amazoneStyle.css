@@ -1,0 +1,495 @@
+* {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.upNav {
+  background-color: #0f1111;
+  padding: 7px 15px;
+}
+.search-box {
+  display: flex;
+  flex-direction: row;
+  padding-left: 22px;
+  height: 43px;
+}
+.search {
+  width: 100%;
+  margin-top: 10px;
+}
+input[type="search"] {
+  border-radius: 5px 0 0 5px;
+  border: 0px;
+  height: 43px;
+  margin-top: 0.2px;
+}
+.search a img {
+  width: 32px;
+  margin-top: -5px;
+}
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffb74d;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  margin-top: 0.5px;
+  height: 22.8px;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  flex-wrap: nowrap;
+}
+.nav-left {
+  display: flex;
+  flex-direction: row;
+}
+body {
+  margin: 0;
+  background-color: #e0e0e0 !important;
+}
+
+.logo {
+  width: 15%;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+
+  /* margin-right: -30px; */
+}
+.logo img {
+  width: 100%;
+  padding: 2px 5px;
+}
+.logo img:hover {
+  outline: 1px white solid;
+  border-radius: 2px;
+}
+.location:hover {
+  outline: 1px white solid;
+  border-radius: 2px;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  width: 17%;
+  margin-left: 20px;
+  margin-top: 6px;
+  padding: 2px 5px;
+}
+.location-image-box {
+  width: 23px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+}
+.location-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.outline:hover {
+  outline: 1px white solid;
+  border-radius: 2px;
+}
+.Line-1 {
+  color: #ccc;
+  font-size: 12px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.Line-2 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  margin-top: -4px;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 30%;
+  justify-content: space-between;
+  float: right;
+}
+
+.acc {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.line-1 {
+  color: white;
+  font-size: 12px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.line-2 {
+  font-size: 14px;
+  color: #ffff;
+  font-weight: bolder;
+  margin-top: -4px;
+}
+
+.acc:hover,
+.return:hover {
+  outline: 1px white solid;
+  border-radius: 2px;
+}
+
+.return {
+  display: flex;
+  flex-direction: column;
+  width: 61px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.downNav {
+  display: flex;
+  flex-direction: row;
+  background-color: #232f3e;
+  height: 39px;
+}
+.downNav a {
+  text-decoration: none;
+  color: white;
+  margin: 5px 0 6px 0;
+  padding: 4px 7px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.downNav a:hover {
+  outline: 1px white solid;
+  border-radius: 2px;
+  color: white;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Main Content */
+
+/* Coursel image */
+.coursel-shader {
+  background: linear-gradient(-180deg, rgb(255 255 255 / 0%), #e0e0e0);
+  height: 400px;
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Product Cards */
+.product-cards {
+  z-index: 1;
+  text-align: center;
+  position: relative;
+  top: -290px;
+}
+
+.row {
+  width: 116%;
+}
+
+.col-custom {
+  height: 400px;
+}
+
+.content-text h5 {
+  float: left;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.content-text {
+  background-color: white;
+  height: 400px;
+}
+
+.content-text img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.col-6 .content-text {
+  padding: 0 !important;
+}
+
+.image-collection .col p {
+  font-size: 13px;
+}
+
+.row-col-2 {
+  height: 150px;
+  object-fit: contain;
+}
+
+.image-collection-2 .col p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/* Custom coursel */
+.coursel-heading h4 {
+  display: block;
+  width: auto;
+  float: left;
+  font-size: 23px;
+  line-height: 1.5 !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 0;
+}
+
+.coursel-heading a {
+  display: block;
+  width: auto;
+  float: left;
+  text-align: right;
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 15px;
+  line-height: 41px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #1a728f;
+}
+
+.coursel-heading a:hover {
+  color: #d88866;
+  text-decoration: underline;
+}
+
+.custom-text {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text {
+  display: inline-block;
+}
+
+.list-item-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-align {
+  /* width: 13.3333% !important; */
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-align img {
+  width: auto;
+  height: auto;
+  max-width: 254px;
+  max-height: 200px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.custom-coursel {
+  white-space: nowrap;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  position: relative;
+}
+
+.text span {
+  font-weight: 500;
+  padding: 4px 6px;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.col-2 {
+  width: auto !important;
+  max-width: 300px;
+}
+
+.coursel-card {
+  display: inline-block;
+  height: 320px;
+}
+
+/* Coursel buttons */
+#btn-left,
+.btn-left {
+  position: absolute;
+  top: 1000px;
+  background-color: #fff;
+  height: 100px;
+  width: 45px;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 0 1px 3px #888;
+  left: 36px;
+  border-radius: 0 3px 3px 0;
+  clip: rect(-10px, 55px, 110px, 0);
+  padding-right: 5px;
+  border: 0;
+  font-weight: 800;
+}
+
+#btn-left:focus,
+#btn-right:focus {
+  outline: #008296 solid;
+}
+
+#btn-right,
+.btn-right {
+  position: absolute;
+  top: 1000px;
+  background-color: #fff;
+  height: 100px;
+  width: 45px;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 0 1px 3px #888;
+  right: -162px;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
+  clip: rect(-10px, 45px, 110px, -10px);
+  padding-left: 5px;
+  border: 0;
+  font-weight: 900;
+}
+
+/* Custom coursel with no text */
+
+.custom-coursel-2 {
+  width: 100%;
+  min-height: 220px;
+  _height: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+.card-align-2 {
+  /* width: 13.3333% !important; */
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-align-2 img {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 200px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.btn-left,
+.btn-right {
+  top: 1466px;
+  z-index: 1;
+}
+
+#btn-l:focus,
+#btn-r:focus {
+  outline: #008296 solid;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  top: -270px;
+  background-color: #232f3e;
+  color: white;
+}
+
+.backToTop {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #37475a;
+
+  margin-bottom: 40px;
+}
+
+.link-collection {
+  display: table;
+  margin: 0 auto;
+}
+
+.links-container {
+  display: table-row;
+  line-height: 120%;
+}
+
+.links-container a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links-container a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.link-1 {
+  display: table-cell;
+  list-style-type: none;
+  display: table-cell;
+  text-align: left;
+  padding: 0 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+li {
+  margin: 0 0 10px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+}
+
+.empty-cell {
+  display: table-row;
+  padding: 0 10px;
+  width: 10%;
+}
