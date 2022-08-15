@@ -1,4 +1,4 @@
-⚡This is a unfinised Project ⚡
+⚡This is an unfinised Project ⚡
 
 🌟Plan for the Project.
 1️⃣ Create the clone of the Amazon nav-bar [✅Done]
